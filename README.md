@@ -26,6 +26,6 @@ Sources about Mocha test framework
 - [hooks](https://mochajs.org/#hooks)
 
 # Additional info
-Install webdriverio globally
-Install mocha globally
+Install webdriverio globally </br>
+Install mocha globally </br>
 !!! Use ./specs folder as a directory where you'll save your tests !!!
