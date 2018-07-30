@@ -2,7 +2,9 @@
   "name": "test",
   "version": "1.0.0",
   "description": "",
-  "dependencies": {},
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  },
   "scripts": {
     "test": "node_modules/.bin/wdio",
     "report": "allure generate reports/allure --clean -o reports/results && allure open reports/results"
