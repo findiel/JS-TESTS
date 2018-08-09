@@ -8,7 +8,7 @@ Installation
 - run `npm install -g allure-commandline` in command line
 
 Running tests
-- run `npm test` in command line to execute tests
+- run `npm test` in command line to execute all tests
 - run `npm run report` to see general tests report in browser
 - to remove old tests from general report delete `reports` directory
 
@@ -26,6 +26,6 @@ Sources about Mocha test framework
 - [hooks](https://mochajs.org/#hooks)
 
 # Additional info
-Install webdriverio globally </br>
-Install mocha globally </br>
-!!! Use ./specs folder as a directory where you'll save your tests !!!
+1. Install webdriverio globally </br>
+2. Install mocha globally </br>
+3. Use ./specs folder as a directory where you'll save your tests </br>
