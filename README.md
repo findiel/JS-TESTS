@@ -1,7 +1,7 @@
 # JS-TESTS
 All what you need to start testing in JavaScript.
 
-#Installation
+# Installation
 - install Node.js and npm
 - download this repo and go with commands:
 - run `npm install` in command line
