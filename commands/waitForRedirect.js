@@ -1,4 +1,4 @@
-module.exports = function(browser){
+module.exports = function(){
   browser.addCommand('waitForRedirect', function(target, timeout, description, reverse){
     return this.waitUntil(function(){
       return (this.getPath() === target) !== reverse;

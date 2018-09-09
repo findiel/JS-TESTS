@@ -78,7 +78,7 @@ exports.config = {
   //
   // Set a base URL in order to shorten url command calls. If your url parameter starts
   // with "/", then the base url gets prepended.
-  baseUrl: 'Your company url adress goes there',
+  baseUrl: 'https://webvr.fream.pl',
   //
   // Default timeout for all waitFor* commands.
   waitforTimeout: 30000,
@@ -138,7 +138,7 @@ exports.config = {
   // See the full list at http://mochajs.org/
   mochaOpts: {
     ui: 'bdd',
-    timeout: 40000
+    timeout: 120000
   },
   //
   // =====
@@ -180,7 +180,9 @@ exports.config = {
     chai.Should();
     global.globals = require('./globals');
     fs.readdirSync('./commands').forEach(command => {
-      require(`./commands/${command}`)();
+      if(/\.js$/i.test(command)){
+        require(`./commands/${command}`)();
+      }
     });
   
   },

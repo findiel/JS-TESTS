@@ -1,4 +1,4 @@
-module.exports = function(browser){
+module.exports = function(){
   browser.addCommand('fillForm', function(selector, data, submit) {
     for(let key in data){
       if (data.hasOwnProperty(key)) {

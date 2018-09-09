@@ -1,4 +1,4 @@
-module.exports = function(browser){
+module.exports = function(){
   const pathRE = /.+?:\/\/.+?(\/.+?)(?:#|\?|$)/i;
   browser.addCommand('getPath', function(){
     const path = pathRE.exec(this.getUrl());
