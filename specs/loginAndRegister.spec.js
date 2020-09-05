@@ -6,7 +6,7 @@ const registerModal = require('../pages/home/registerModal');
 const loginModal = require('../pages/home/loginModal');
 const XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 
-//REAL TESTS
+//TESTS
 describe('Alfa Evryplace register and login tests.', () => {
 
     //Defines what to do before each of tests.
