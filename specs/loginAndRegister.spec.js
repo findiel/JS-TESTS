@@ -46,23 +46,6 @@ describe('Alfa Evryplace register and login tests.', () => {
         xhr.send(registerDataString);
     })
 
-    /* It's not ready yet.
-    it('Should active a new client', () => {
-        browser.url('https://accounts.google.com/ServiceLogin/signinchooser?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin');
-        browser.pause(1000);
-        browser.element('#identifierId').setValue(globals.gmailSpam.login);
-        browser.element('#identifierNext > content > span').click();
-        browser.pause(1000);
-        browser.element('#password > div.aCsJod.oJeWuf > div > div.Xb9hP > input').setValue(globals.gmailSpam.password);
-        browser.element('#passwordNext > content > span').click();
-        browser.pause(15000);
-        browser.element('//*[@id=":3a"]').click();
-        browser.pause(3000);
-        browser.element('a[href="*]').click();
-        browser.pause(2000);
-    })
-    */
-
     it('Should check login modal invalid email errors', () => {
         
     })
